@@ -1,39 +1,69 @@
-.App {
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.active {
+  background-color: #4CAF50;
+  color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hexagon {
+  width: 100px;
+  height: 55px;
+  background-color: transparent;
+  position: relative;
+  margin: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
 }
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+.mono-font {
+  font-family: 'Roboto Mono', monospace;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+.title {
+  font-size: 3.75rem;
+  font-weight: bolder;
+  font-family: 'Open Sans', sans-serif;
+  color: #ccd6f6 ;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
+.box-1 {
+  background: url("../src/assests/projects/courseArena.png");
+  background-size: ;
+  background-position: top;
+  transition:ease-in-out 3s;
+ }
+ .box-2 {
+  background: url("../src/assests/projects/doc-hourse.JPG");
+  background-size: cover;
+  background-position: top;
+  transition:ease-in-out 3s;
+ }
+ .box-3 {
+  background: url("../src/assests/projects/ph-resale.JPG");
+  background-size: cover;
+  background-position: top right;
+  transition:ease-in-out 3s;
+ }
+
