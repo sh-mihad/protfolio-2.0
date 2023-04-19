@@ -11,7 +11,7 @@ import redux from "../../assests/skills/redux.webp"
 
 const Header = () => {
     return (
-        <div className="mt-10 mx-5 lg:m-32 min-h-[360px] block  md:flex items-center relative">
+        <div id="home" className="mt-10 mx-5 lg:m-32 min-h-[360px] block  md:flex items-center relative">
             <div>
                 <p className="text-[#5ff3d1] text-xl mono-font">Hi, my name is </p>
                 <h1 className="font-extrabold text-2xl lg:text-6xl text-[#ccd6f6]">Sabbir Hossen.</h1>
@@ -31,7 +31,7 @@ const Header = () => {
                 <p className="mt-6 text-[#ccd6f6] w-full md:w-3/4">
                     Web Development is my passion I never tierd for this, I have 2 years of expiriance on this fild. I can make lots of porject using MERN Technologis. I am expert in HTML, CSS , Javascript , React , Tailwind , Node js ,and other tacnologis
                 </p>
-                <button className="btn mt-7 text-[#5ff3d1]  border-2 border-[#5ff3d1] rounded-md px-6 py-2"><a href="#about">About Me</a></button>
+                <button className="btn mt-7 hover:bg-[#133040] duration-300  text-[#5ff3d1]  border-2 border-[#5ff3d1] rounded-md px-6 py-2"><a href="#about">About Me</a></button>
             </div>
 
             <div className='md:w-3/6 mt-12 lg:mt-0'>
